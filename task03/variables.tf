@@ -1,21 +1,20 @@
-
 variable "rg_name" {
-  description = "Name of the resource group"
+  description = "Name of the Azure Resource Group"
   type        = string
 }
 
 variable "location" {
-  description = "Azure location"
+  description = "Azure region to deploy resources in"
   type        = string
 }
 
 variable "storageaccount_name" {
-  description = "Name of the storage account"
+  description = "Name of the Azure Storage Account"
   type        = string
 }
 
 variable "vnet_name" {
-  description = "Name of the virtual network"
+  description = "Name of the Azure Virtual Network"
   type        = string
 }
 
@@ -30,6 +29,6 @@ variable "subnet2_name" {
 }
 
 variable "student_email" {
-  description = "Email of the student"
+  description = "Email address of the student (used in tags)"
   type        = string
 }
